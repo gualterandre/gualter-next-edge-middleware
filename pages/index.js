@@ -13,7 +13,7 @@ export async function getStaticProps() {
 export default function Home({ banner }) {
   return (
     <div className={styles.container}>
-      <h1>Hello world</h1>
+      <h1>{ banner }</h1>
       <Link href="/about">About</Link>
     </div>
   )
